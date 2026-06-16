@@ -1,0 +1,22 @@
+# GSD Master execution state (runtime artifacts)
+.gsd-execution-state
+.gsd-test-baseline.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (for development/testing)
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
