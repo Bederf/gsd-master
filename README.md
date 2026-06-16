@@ -2,6 +2,8 @@
 
 Phase orchestration skill for Claude Code. Orchestrates multi-plan phase execution with spec validation, mandatory review (Paranoid + Codex), test harness, and Greploop PR review.
 
+> **Adapted from [GSD Core](https://www.npmjs.com/package/@opengsd/gsd-core)** by the OpenGSD team. GSD Master re-implements GSD Core's phase-loop model with strict pre-flight validation, dual review, and autonomous PR review. See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for full attribution.
+
 ## What It Does
 
 Takes a phase spec (or pre-reviewed plan) and runs it through an 11-step pipeline:

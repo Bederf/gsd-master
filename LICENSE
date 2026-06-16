@@ -2,6 +2,15 @@ MIT License
 
 Copyright (c) 2026 Bederf
 
+This project is adapted from GSD Core (https://www.npmjs.com/package/@opengsd/gsd-core),
+Copyright (c) OpenGSD contributors. Licensed under MIT.
+
+GSD Core is a context-engineering and spec-driven development framework distributed
+under the MIT License. GSD Master re-implements the GSD Core phase-loop conceptual
+model (Discuss → Plan → Execute → Verify → Ship) with a different process shape
+optimized for multi-plan orchestration, strict pre-flight validation, and autonomous
+PR review. It is not a fork of the GSD Core source code.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
