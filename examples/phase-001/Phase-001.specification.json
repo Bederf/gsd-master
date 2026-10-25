@@ -1,0 +1,50 @@
+{
+  "schema": "phase-specification.v1",
+  "phase_id": "001",
+  "specification_id": "example-health-check",
+  "version": "1.0.0",
+  "problem_statement": "The service has no documented health-check endpoint for local development.",
+  "scope": {
+    "included": ["health-check contract", "implementation", "focused verification"],
+    "excluded": ["production deployment", "provider-specific integration"]
+  },
+  "requirements": [
+    "Document the endpoint contract before implementation",
+    "Implement the documented health response",
+    "Return focused verification evidence"
+  ],
+  "acceptance_criteria": [
+    "The endpoint contract is documented",
+    "The implementation satisfies the contract",
+    "Focused verification evidence is returned"
+  ],
+  "dependencies": {
+    "codebase": ["src/"],
+    "external": []
+  },
+  "verification": {
+    "focused": true,
+    "evidence_required": true
+  },
+  "independent_review": {
+    "required": true,
+    "read_only": true
+  },
+  "convergence": {
+    "max_correction_cycles": 3
+  },
+  "remediation": {
+    "unresolved_blockers": "block"
+  },
+  "phase_gate": {
+    "gate_type": "manual",
+    "min_phase": 1,
+    "failure_action": "block"
+  },
+  "acceptance_authority": "project-declared",
+  "workflow_identity": "gsd:master",
+  "provenance": {
+    "fixture": true,
+    "note": "Example only; consuming project validation is authoritative."
+  }
+}

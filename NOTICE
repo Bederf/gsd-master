@@ -1,0 +1,10 @@
+GSD Master
+
+Copyright (c) 2026 Bederf.
+
+GSD Master is an independent re-implementation of the phase-loop concept
+associated with GSD Core. GSD Core is distributed by the OpenGSD contributors
+under the MIT License. See LICENSE and ACKNOWLEDGMENTS.md for attribution.
+
+This repository does not include consumer-project source code, credentials,
+private deployment configuration or provider secrets.
