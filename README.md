@@ -108,6 +108,13 @@ reported as blocked or incomplete review. It is never silently treated as a
 PASS. The implementation and reviewer must use different context identifiers,
 and the reviewer must remain read-only.
 
+## Project status
+
+**Maturity: public preview skill.** The lifecycle contract, validation rules,
+review boundaries and package self-check are published. Integration behavior
+depends on the consuming project's Claude Code setup, phase vault, providers
+and governance configuration; this repository is not a standalone runtime.
+
 ## Usage
 
 ### Phase number mode
